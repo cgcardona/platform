@@ -5,3 +5,6 @@ node_modules
 index.js
 apis/info.js
 apis/interfaces.js
+
+# Ignore yarn error log
+yarn-error.log
