@@ -92,7 +92,7 @@ describe('Info API', () => {
           method: 'info.getVMs'
         });
 
-        await isBootstrapped(url);
+        await isBootstrapped(url, "X");
 
         // Assert that the axios.post method was called with the correct arguments
         chai.expect(postSpy).to.have.been.called.with(url, {
