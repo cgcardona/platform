@@ -1,0 +1,23 @@
+{
+  "name": "platform",
+  "version": "0.0.1",
+  "description": "Avalanche Developer Platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/got": "^9.6.12",
+    "@types/node-fetch": "^2.6.2",
+    "axios": "0.27.2",
+    "chai": "^4.3.7",
+    "chai-spies": "^1.0.0",
+    "got": "^12.5.3",
+    "node-fetch": "^3.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}

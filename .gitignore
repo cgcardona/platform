@@ -1,0 +1,7 @@
+# Ignore the node_modules directory
+node_modules
+
+# Ignore the js files
+index.js
+apis/info.js
+apis/interfaces.js
